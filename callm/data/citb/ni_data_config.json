@@ -1,0 +1,13 @@
+
+{
+        "data_dir": "callm/data/citb/splits/CIT_splits/",
+        "task_dir": "callm/data/citb/tasks/",
+        "data_dir_for_official_test": "callm/data/citb/CIT_data/official_test_data",
+        "data_dir_for_initial_training_dir": "callm/data/citb/CIT_data/initial_multitask_learning/defintion_pos_2",  
+        "task_split_file_name": "cl_dialogue_tasks",
+        "data_dir_for_task_order": "callm/data/citb/CIT_data/task_orders/stream=${task_split_file_name}",
+        "max_num_instances_per_task": 500,
+        "max_num_instances_per_eval_task": 50
+
+}
+

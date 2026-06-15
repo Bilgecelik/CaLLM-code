@@ -1,0 +1,48 @@
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+build/
+dist/
+wheels/
+
+# Secrets and local config
+.env
+.env.*
+hf_hub_token.txt
+wandb/
+
+# Experiment outputs and model artifacts
+outputs/
+outputs_*/
+saved_outputs/
+review_outputs/
+grid_search_logs/
+logs/
+drift_experiment_outputs/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Downloaded/preprocessed datasets
+callm/data/trace/LLM-CL-Benchmark_*/
+callm/data/citb/CIT_data/
+callm/data/citb/tasks/*.json
+callm/data/citb/generated_data/*
+!callm/data/citb/generated_data/.gitkeep
+callm/data/citb/generated_data/CITB/text2emb_*/
+callm/data/citb/generated_data/CITB/*remove_duplicates*/
+
+# Runtime caches
+unsloth_compiled_cache/
